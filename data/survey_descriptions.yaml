@@ -1,0 +1,197 @@
+MFQ2:
+  description: "Moral Foundations Questionnaire"
+  minimum: 1
+  maximum: 5
+  subscales:
+    - name: "MFQ_C"
+      description: "Care/Harm subscale description"
+      items:
+        - name: MFQ2_C_1
+          description: "Briga o ljudima koji pate je važna vrlina."
+        - name: MFQ2_C_2
+          description: "Verujem da je saosećanje za one koji pate jedna od najvažnijih vrlina."
+        - name: MFQ2_C_3
+          description: "Svi treba da brinemo za ljude koji emotivno pate."
+        - name: MFQ2_C_4
+          description: "Saosećam sa ljudima koji su propatili u životu."
+        - name: MFQ2_C_5
+          description: "Svi treba da probaju da uteše ljude koji prolaze kroz težak period."
+        - name: MFQ2_C_6
+          description: "Boli me kada vidim da neko ignoriše potrebe drugog ljudskog bića."
+    - name: "MFQ_E"
+      description: "Fairness/Equality subscale description"
+      items:
+        - name: MFQ2_E_1
+          description: "Svet bi bio bolje mesto za život kada bi svi zarađivali istu količinu novca."
+        - name: MFQ2_E_2
+          description: "Naše društvo bi imalo značajno manje problema kada bi svi ljudi zarađivali isto."
+        - name: MFQ2_E_3
+          description: "Verujem da svi ljudi treba da dobiju istu količinu resursa u životu."
+        - name: MFQ2_E_4
+          description: "Bilo bi idealno kada bi svi u društvu završili sa relativno istom količinom novca."
+        - name: MFQ2_E_5
+          description: "Kada ljudi rade zajedno ka ostvarenju zajedničkog cilja, svi treba da dobiju jednake nagrade iako su se neki više trudili od drugih."
+        - name: MFQ2_E_6
+          description: "Uznemirava me što neki ljudi u mojoj zemlji imaju mnogo više para nego drugi."
+    - name: "MFQ_PRO"
+      description: "Proportionality subscale description"
+      items:
+        - name: MFQ2_Pro_1
+          description: "Mislim da ljudi koji rade više treba na kraju da završe sa više novca."
+        - name: MFQ2_Pro_2
+          description: "Mislim da ljude treba nagrađivati proporcionalno svom doprinosu."
+        - name: MFQ2_Pro_3
+          description: "Trud koji radnik uloži u svoj posao treba da se ogleda u povišici koju dobije."
+        - name: MFQ2_Pro_4
+          description: "Raduje me kada ljudi dobiju priznanje po sopstvenim zaslugama."
+        - name: MFQ2_Pro_5
+          description: "U pravičnom društvu oni koji rade više treba da žive sa boljim životnim standardom."
+        - name: MFQ2_Pro_6
+          description: "Raduje me kada vidim da varalice budu uhvaćene i kažnjene."
+    - name: "MFQ_L"
+      description: "Loyalty subscale description"
+      items:
+        - name: MFQ2_L_1
+          description: "Mislim da decu treba učiti da budu odana svojoj zemlji."
+        - name: MFQ2_L_2
+          description: "Uznemirava me kada ljudi nisu odani svojoj zemlji."
+        - name: MFQ2_L_3
+          description: "Svi treba da vole svoje zajednice."
+        - name: MFQ2_L_4
+          description: "Svi treba da brane svoju zemlju kada dobiju poziv."
+        - name: MFQ2_L_5
+          description: "Svi treba da osećaju ponos kada čovek iz njihove zajednice osvoji nagradu na internacionalnom takmičenju."
+        - name: MFQ2_L_6
+          description: "Verujem da snaga sportskog tima potiče od odanosti članova jedni drugima."
+    - name: "MFQ_A"
+      description: "Authority subscale description"
+      items:
+        - name: MFQ2_A_1
+          description: "Mislim da je važno za društva da vrednuju svoje tradicionalne vrednosti."
+        - name: MFQ2_A_2
+          description: "Mislim da većina tradicija služi održanju reda u društvu."
+        - name: MFQ2_A_3
+          description: "Verujem da je poslušnost prema roditeljima važna vrlina."
+        - name: MFQ2_A_4
+          description: "Svi treba da učimo od svojih starijih."
+        - name: MFQ2_A_5
+          description: "Verujem da je poštovanje autoriteta jedna od najvažnijih vrednosti koju deca treba da nauče."
+        - name: MFQ2_A_6
+          description: "Verujem da je jak lider dobar za društvo."
+    - name: "MFQ_P"
+      description: "Purity subscale description"
+      items:
+        - name: MFQ2_P_1
+          description: "Mislim da ljudsko telo treba tretirati kao hram koji čuva nešto sveto u sebi."
+        - name: MFQ2_P_2
+          description: "Verujem da je čednost važna vrlina."
+        - name: MFQ2_P_3
+          description: "Uznemirava me kada ljudi psuju bez pardona."
+        - name: MFQ2_P_4
+          description: "Kada bih saznao/la da poznanik ima neobičan ali bezopasan seksualni fetiš, bilo bi mi neprijatno u njegovoj blizini."
+        - name: MFQ2_P_5
+          description: "Ljudi treba da koriste prirodne lekove, a ne hemikalije koje pravi čovek."
+        - name: MFQ2_P_6
+          description: "Divim se i cenim ljude koji održe nevinost do braka."
+
+CTSQ:
+  description: "Cognitive Thinking Styles Questionnaire"
+  minimum: 1
+  maximum: 7
+  subscales:
+    - name: "AOT"
+      description: "Actively Open-minded Thinking subscale description"
+      items:
+        - name: AOT_1r
+          description: "Važno je da budete odani svojim uverenjima, čak i kada se donesu dokazi koji idu protiv njih. (R)"
+          reverse: true
+        - name: AOT_2r
+          description: "Da li nešto deluje istinito važnije je od dokaza. (R)"
+          reverse: true
+        - name: AOT_3r
+          description: "Samo zato što dokazi konfliktiraju sa mojim trenutnim uverenjima, ne znači da su moja uverenja pogrešna. (R)"
+          reverse: true
+        - name: AOT_4r
+          description: "Može postojati dokaz koji ide protiv onoga u šta verujete, ali to ne znači da morate promeniti svoja uverenja. (R)"
+          reverse: true
+        - name: AOT_5r
+          description: "Čak i ako postoje konkretni dokazi protiv onoga u šta verujete da je istina, sasvim je u redu zadržati dragocena uverenja. (R)"
+          reverse: true
+        - name: AOT_6r
+          description: "Bez obzira na temu, ono u šta verujete da je istina važnije je od dokaza koji idu protiv vaših uverenja. (R)"
+          reverse: true
+    - name: "CM"
+      description: "Cognitive Mediation subscale description"
+      items:
+        - name: CMT_1
+          description: "Mislim da postoji mnogo pogrešnih načina, ali samo jedan ispravan način, za gotovo sve."
+        - name: CMT_2
+          description: "Po mom iskustvu, istina često bude crno-bela."
+        - name: CMT_3
+          description: "Istina nije relativna."
+        - name: CMT_4
+          description: "Istina se ne menja."
+        - name: CMT_5
+          description: "Ili je nešto istina ili nije; nema ničega između."
+        - name: CMT_6
+          description: "Nema srednjeg puta između onoga što je istina i onoga što je laž."
+    - name: "PIT"
+      description: "Patience/Impulsivity subscale description"
+      items:
+        - name: PIT_1
+          description: "Volim da se oslanjam na svoje intuitivne utiske."
+        - name: PIT_2
+          description: "Verujem svojim predosećanjima."
+        - name: PIT_3
+          description: "Kada donosim odluke, obično se oslanjam na svoju intuiciju."
+        - name: PIT_4
+          description: "Korišćenje svojih osećaja iz stomaka obično dobro funkcioniše u rešavanju problema u mom životu."
+        - name: PIT_5
+          description: "Intuicija je najbolji vodič pri donošenju odluka."
+        - name: PIT_6
+          description: "Često se vodim instinktom kada se odlučujem za određeni pravac akcije."
+    - name: "PE"
+      description: "Predictive/Experiential subscale description"
+      items:
+        - name: PE_1r
+          description: "Nisam baš dobar u rešavanju komplikovanih problema. (R)"
+          reverse: true
+        - name: PE_2r
+          description: "Razmišljanje nije moja ideja zabavne aktivnosti. (R)"
+          reverse: true
+        - name: PE_3r
+          description: "Trudim se izbegavati situacije koje zahtevaju duboko razmišljanje o nečemu. (R)"
+          reverse: true
+        - name: PE_4r
+          description: "Nisam vrlo analitički mislilac. (R)"
+          reverse: true
+        - name: PE_5r
+          description: "Razmatranje stvari pažljivo nije jedna od mojih jačih strana. (R)"
+          reverse: true
+        - name: PE_6r
+          description: "Dugo i temeljno razmišljanje o nečemu mi pruža malo zadovoljstva. (R)"
+          reverse: true
+CRT:
+  description: "Cognitive Reflection Task"
+  minimum: 0
+  maximum: 1
+  subscales:
+    - name: "CRT_Correct"
+      description: "CRT items"
+      items:
+        - name: CRT1_correct
+          description: "Čovek je kupio svinju za 60 evra, zatim je prodao za 70 evra, pa otkupio ponovo za 80 evra, i ponovo ga konačno prodao za 90 evra. Koliko je zaradio?"
+        - name: CRT2_correct
+          description: "Ako Ivan popije jedan litar soka u 6 dana, a Marija popije jedan litar u 12 dana, koliko dana im treba da popiju zajedno jedan litar soka?"
+        - name: CRT3_correct
+          description: "Marko je dobio ujedno 15-u najvišu i 15-u najnižu ocenu u odeljenju. Koliko učenika ima u ovom odeljenju?"
+        - name: CRT4_correct
+          description: "Ako tri patuljka mogu da zapakuju tri igračke za jedan sat, koliko patuljaka je potrebno da se zapakuje 6 igračaka za dva sata?"
+        - name: CRT5_correct
+          description: "U atletskom klubu, visoki članovi imaju tri puta veću verovatnoću da osvoje medalju od niskih članova. Ove godine, klub je osvojio 60 medalja do sada. Koliko od ovih medalja su osvojili niski atletičari?"
+        - name: CRT6_correct
+          description: "U jezeru se nalazi livada lokvanja. Površina livade se svakog dana udvostruči. Ukoliko je potrebno 48 dana da bi livada lokvanja pokrila celo jezero, posle koliko dana je polovina jezera bila pokrivena?"
+        - name: CRT7_correct
+          description: "Teniski reket i loptica zajedno koštaju 1100 dinara. Reket je 1000 dinara skuplji od loptice. Koliko košta loptica?"
+        - name: CRT8_correct
+          description: "Potrebno je 5 minuta da bi 5 mašina ištampalo 5 postera. Koliko je vremena potrebno da 100 mašina ištampa 100 postera?"

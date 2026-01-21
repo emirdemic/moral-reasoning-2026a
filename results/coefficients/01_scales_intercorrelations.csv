@@ -1,0 +1,79 @@
+X,Y,method,alternative,n,r,CI95%,p-unc,p-corr,power
+MFQ_C,MFQ_E,pearson,two-sided,761,0.44,[0.38 0.49],0.0,0.0,1.0
+MFQ_C,MFQ_PRO,pearson,two-sided,761,0.25,[0.18 0.31],0.0,0.0,1.0
+MFQ_C,MFQ_L,pearson,two-sided,761,0.27,[0.2  0.33],0.0,0.0,1.0
+MFQ_C,MFQ_A,pearson,two-sided,761,0.13,[0.06 0.2 ],0.0002,0.0158,0.96
+MFQ_C,MFQ_P,pearson,two-sided,761,0.15,[0.08 0.22],0.0,0.0024,0.99
+MFQ_C,AOT,pearson,two-sided,761,0.03,[-0.04  0.1 ],0.4513,1.0,0.12
+MFQ_C,CM,pearson,two-sided,761,0.08,[0.01 0.15],0.0236,1.0,0.62
+MFQ_C,PIT,pearson,two-sided,761,0.09,[0.02 0.16],0.0096,0.7458,0.74
+MFQ_C,PE,pearson,two-sided,761,0.02,[-0.05  0.1 ],0.4991,1.0,0.1
+MFQ_C,CRT_Correct,pearson,two-sided,761,-0.08,[-0.16 -0.01],0.0191,1.0,0.65
+MFQ_C,CRT_Heuristic,pearson,two-sided,761,0.06,[-0.01  0.13],0.0901,1.0,0.4
+MFQ_C,CRT_Incorrect,pearson,two-sided,761,0.06,[-0.01  0.13],0.1132,1.0,0.35
+MFQ_E,MFQ_PRO,pearson,two-sided,761,0.11,[0.04 0.18],0.0028,0.2191,0.85
+MFQ_E,MFQ_L,pearson,two-sided,761,0.16,[0.09 0.23],0.0,0.0006,0.99
+MFQ_E,MFQ_A,pearson,two-sided,761,0.08,[0.01 0.15],0.0321,1.0,0.57
+MFQ_E,MFQ_P,pearson,two-sided,761,0.11,[0.04 0.18],0.0028,0.2181,0.85
+MFQ_E,AOT,pearson,two-sided,761,-0.09,[-0.16 -0.01],0.0186,1.0,0.65
+MFQ_E,CM,pearson,two-sided,761,0.12,[0.05 0.19],0.0012,0.0951,0.9
+MFQ_E,PIT,pearson,two-sided,761,0.16,[0.09 0.23],0.0,0.0005,0.99
+MFQ_E,PE,pearson,two-sided,761,-0.12,[-0.19 -0.05],0.0012,0.0964,0.9
+MFQ_E,CRT_Correct,pearson,two-sided,761,-0.16,[-0.23 -0.09],0.0,0.0005,0.99
+MFQ_E,CRT_Heuristic,pearson,two-sided,761,0.14,[0.07 0.21],0.0002,0.0117,0.97
+MFQ_E,CRT_Incorrect,pearson,two-sided,761,0.08,[0.01 0.15],0.02,1.0,0.64
+MFQ_PRO,MFQ_L,pearson,two-sided,761,0.35,[0.29 0.41],0.0,0.0,1.0
+MFQ_PRO,MFQ_A,pearson,two-sided,761,0.36,[0.29 0.42],0.0,0.0,1.0
+MFQ_PRO,MFQ_P,pearson,two-sided,761,0.3,[0.23 0.36],0.0,0.0,1.0
+MFQ_PRO,AOT,pearson,two-sided,761,-0.15,[-0.21 -0.08],0.0001,0.0041,0.98
+MFQ_PRO,CM,pearson,two-sided,761,0.15,[0.08 0.22],0.0,0.0016,0.99
+MFQ_PRO,PIT,pearson,two-sided,761,0.16,[0.09 0.23],0.0,0.0004,1.0
+MFQ_PRO,PE,pearson,two-sided,761,-0.09,[-0.16 -0.02],0.0147,1.0,0.69
+MFQ_PRO,CRT_Correct,pearson,two-sided,761,-0.1,[-0.17 -0.03],0.0044,0.3447,0.81
+MFQ_PRO,CRT_Heuristic,pearson,two-sided,761,0.07,[-0.    0.14],0.0617,1.0,0.46
+MFQ_PRO,CRT_Incorrect,pearson,two-sided,761,0.08,[0.01 0.15],0.0293,1.0,0.59
+MFQ_L,MFQ_A,pearson,two-sided,761,0.75,[0.72 0.78],0.0,0.0,1.0
+MFQ_L,MFQ_P,pearson,two-sided,761,0.62,[0.58 0.67],0.0,0.0,1.0
+MFQ_L,AOT,pearson,two-sided,761,-0.3,[-0.36 -0.23],0.0,0.0,1.0
+MFQ_L,CM,pearson,two-sided,761,0.34,[0.28 0.4 ],0.0,0.0,1.0
+MFQ_L,PIT,pearson,two-sided,761,0.26,[0.19 0.32],0.0,0.0,1.0
+MFQ_L,PE,pearson,two-sided,761,-0.18,[-0.24 -0.11],0.0,0.0001,1.0
+MFQ_L,CRT_Correct,pearson,two-sided,761,-0.14,[-0.2  -0.06],0.0002,0.0145,0.96
+MFQ_L,CRT_Heuristic,pearson,two-sided,761,0.11,[0.04 0.18],0.0023,0.181,0.86
+MFQ_L,CRT_Incorrect,pearson,two-sided,761,0.07,[0.   0.14],0.0399,1.0,0.54
+MFQ_A,MFQ_P,pearson,two-sided,761,0.69,[0.65 0.73],0.0,0.0,1.0
+MFQ_A,AOT,pearson,two-sided,761,-0.36,[-0.42 -0.3 ],0.0,0.0,1.0
+MFQ_A,CM,pearson,two-sided,761,0.34,[0.28 0.4 ],0.0,0.0,1.0
+MFQ_A,PIT,pearson,two-sided,761,0.26,[0.19 0.32],0.0,0.0,1.0
+MFQ_A,PE,pearson,two-sided,761,-0.24,[-0.31 -0.17],0.0,0.0,1.0
+MFQ_A,CRT_Correct,pearson,two-sided,761,-0.2,[-0.26 -0.13],0.0,0.0,1.0
+MFQ_A,CRT_Heuristic,pearson,two-sided,761,0.11,[0.04 0.18],0.0018,0.143,0.88
+MFQ_A,CRT_Incorrect,pearson,two-sided,761,0.17,[0.1  0.24],0.0,0.0001,1.0
+MFQ_P,AOT,pearson,two-sided,761,-0.37,[-0.43 -0.31],0.0,0.0,1.0
+MFQ_P,CM,pearson,two-sided,761,0.38,[0.32 0.44],0.0,0.0,1.0
+MFQ_P,PIT,pearson,two-sided,761,0.27,[0.21 0.34],0.0,0.0,1.0
+MFQ_P,PE,pearson,two-sided,761,-0.24,[-0.3  -0.17],0.0,0.0,1.0
+MFQ_P,CRT_Correct,pearson,two-sided,761,-0.21,[-0.28 -0.14],0.0,0.0,1.0
+MFQ_P,CRT_Heuristic,pearson,two-sided,761,0.18,[0.11 0.24],0.0,0.0001,1.0
+MFQ_P,CRT_Incorrect,pearson,two-sided,761,0.11,[0.04 0.18],0.0033,0.2566,0.84
+AOT,CM,pearson,two-sided,761,-0.27,[-0.33 -0.2 ],0.0,0.0,1.0
+AOT,PIT,pearson,two-sided,761,-0.44,[-0.5  -0.38],0.0,0.0,1.0
+AOT,PE,pearson,two-sided,761,0.25,[0.18 0.31],0.0,0.0,1.0
+AOT,CRT_Correct,pearson,two-sided,761,0.25,[0.18 0.32],0.0,0.0,1.0
+AOT,CRT_Heuristic,pearson,two-sided,761,-0.18,[-0.25 -0.11],0.0,0.0,1.0
+AOT,CRT_Incorrect,pearson,two-sided,761,-0.17,[-0.24 -0.1 ],0.0,0.0003,1.0
+CM,PIT,pearson,two-sided,761,0.25,[0.18 0.32],0.0,0.0,1.0
+CM,PE,pearson,two-sided,761,-0.25,[-0.32 -0.19],0.0,0.0,1.0
+CM,CRT_Correct,pearson,two-sided,761,-0.19,[-0.26 -0.12],0.0,0.0,1.0
+CM,CRT_Heuristic,pearson,two-sided,761,0.14,[0.07 0.21],0.0001,0.0058,0.98
+CM,CRT_Incorrect,pearson,two-sided,761,0.12,[0.05 0.19],0.0009,0.0725,0.91
+PIT,PE,pearson,two-sided,761,-0.15,[-0.22 -0.08],0.0,0.0027,0.99
+PIT,CRT_Correct,pearson,two-sided,761,-0.2,[-0.27 -0.14],0.0,0.0,1.0
+PIT,CRT_Heuristic,pearson,two-sided,761,0.18,[0.11 0.25],0.0,0.0,1.0
+PIT,CRT_Incorrect,pearson,two-sided,761,0.09,[0.02 0.16],0.0117,0.9139,0.71
+PE,CRT_Correct,pearson,two-sided,761,0.19,[0.12 0.25],0.0,0.0,1.0
+PE,CRT_Heuristic,pearson,two-sided,761,-0.13,[-0.2  -0.06],0.0002,0.0147,0.96
+PE,CRT_Incorrect,pearson,two-sided,761,-0.12,[-0.19 -0.05],0.0006,0.0446,0.93
+CRT_Correct,CRT_Heuristic,pearson,two-sided,761,-0.8,[-0.82 -0.77],0.0,0.0,1.0
+CRT_Correct,CRT_Incorrect,pearson,two-sided,761,-0.58,[-0.62 -0.53],0.0,0.0,1.0
+CRT_Heuristic,CRT_Incorrect,pearson,two-sided,761,-0.03,[-0.1   0.04],0.3692,1.0,0.15
