@@ -14,6 +14,7 @@ from src.util.custom_types import (
 def get_continuous_variable_descriptive(dataframe: DataFrame, variable_name: str):
     normality = pn.normality(dataframe[variable_name])
     return ContinuousVariableDescriptive(
+        median=round(np.nanmedian(dataframe[variable_name]), 2),
         mean=round(np.nanmean(dataframe[variable_name]), 2),
         std=round(np.nanstd(dataframe[variable_name], ddof=1), 2),
         sk=round(skew(dataframe[variable_name], nan_policy="omit"), 2),

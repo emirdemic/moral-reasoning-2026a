@@ -8,6 +8,7 @@ class NormalityTestResult(t.TypedDict):
 
 
 class ContinuousVariableDescriptive(t.TypedDict):
+    median: float
     mean: float
     std: float
     sk: float
